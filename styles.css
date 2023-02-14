@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 950px) {
+    .container {
+        margin: 20px 0px;
+        display: block;
+        top: 0;
+        transform: translate(-50%, 0);
+    }
+    .sedan {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .luxury {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
